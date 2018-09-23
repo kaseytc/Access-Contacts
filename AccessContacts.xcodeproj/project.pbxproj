@@ -12,6 +12,7 @@
 		41265AEC20D764D500B2402A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41265AEA20D764D500B2402A /* Main.storyboard */; };
 		41265AEE20D764D600B2402A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41265AED20D764D600B2402A /* Assets.xcassets */; };
 		41265AF120D764D600B2402A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41265AEF20D764D600B2402A /* LaunchScreen.storyboard */; };
+		41265AF920D7652B00B2402A /* ContactStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41265AF820D7652B00B2402A /* ContactStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		41265AED20D764D600B2402A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41265AF020D764D600B2402A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41265AF220D764D600B2402A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41265AF820D7652B00B2402A /* ContactStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				41265AE620D764D500B2402A /* AppDelegate.swift */,
 				41265AE820D764D500B2402A /* ViewController.swift */,
+				41265AF820D7652B00B2402A /* ContactStruct.swift */,
 				41265AEA20D764D500B2402A /* Main.storyboard */,
 				41265AED20D764D600B2402A /* Assets.xcassets */,
 				41265AEF20D764D600B2402A /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41265AE920D764D500B2402A /* ViewController.swift in Sources */,
+				41265AF920D7652B00B2402A /* ContactStruct.swift in Sources */,
 				41265AE720D764D500B2402A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QX8Z32V8FK;
 				INFOPLIST_FILE = AccessContacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QX8Z32V8FK;
 				INFOPLIST_FILE = AccessContacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
